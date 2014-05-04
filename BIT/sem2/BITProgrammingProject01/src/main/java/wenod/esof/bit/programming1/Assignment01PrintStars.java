@@ -6,10 +6,10 @@ public class Assignment01PrintStars {
 	public void printTrangle(){
 		System.out.println("Print trangle of stars");
 		for (int i = 1; i < 6; i++) {
-			/*for (int k = 6; k>i; k--)
-				System.out.print(" ");*/
+			for (int k = 6; k>i; k--)
+				System.out.print(" ");
 			for (int j = 0; j < i; j++)
-				System.out.print("* ");
+				System.out.print(i+" ");
 			System.out.println();
 		}
 	}
