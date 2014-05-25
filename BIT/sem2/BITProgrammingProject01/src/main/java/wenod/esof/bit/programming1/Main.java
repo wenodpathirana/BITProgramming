@@ -1,11 +1,12 @@
 package wenod.esof.bit.programming1;
 
-public class Main {
+class Main {
 	
 	public static void main(String arg[]){
 		//System.out.println("HelloWorld");
-		Assignment01PrintStars printStars = new Assignment01PrintStars();
-		printStars.printTrangle();
-		printStars.printSquare();
+		
+		OperatorSamples opertrSample = new OperatorSamples();
+		opertrSample.bitwiseSample();
+
 	}
 }
