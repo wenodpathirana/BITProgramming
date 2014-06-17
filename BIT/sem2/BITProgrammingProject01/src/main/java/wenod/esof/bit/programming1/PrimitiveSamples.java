@@ -12,9 +12,9 @@ public class PrimitiveSamples {
 		System.out.println("total : " + z);
 		//char
 		char a = 'a';
-		char b = 65;
+		char b = 88;
 		
-		System.out.println("char " + b);
+		System.out.println("char b" + b);
 		
 		//boolean
 		boolean c = true;
@@ -23,7 +23,7 @@ public class PrimitiveSamples {
 	
 	public void literalSamples(){
 		//integer with decimal, octal, hexadecimal
-		int x = 0x15;
+		int x = 0x15; 
 		int x2 = 15;
 		
 		System.out.println("Octal : "+x+" integer : " +x2);
